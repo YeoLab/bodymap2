@@ -1,0 +1,153 @@
+{
+  "name": "bodymap2", 
+  "title": null, 
+  "datapackage_version": "0.1.1", 
+  "sources": null, 
+  "licenses": null, 
+  "resources": [
+    {
+      "name": "expression_feature", 
+      "format": "csv", 
+      "rename_col": "gene_name", 
+      "ignore_subset_cols": [], 
+      "path": "expression_feature.csv.gz", 
+      "compression": "gzip"
+    }, 
+    {
+      "name": "expression", 
+      "log_base": null, 
+      "format": "csv", 
+      "thresh": -Infinity, 
+      "plus_one": false, 
+      "path": "expression.csv.gz", 
+      "compression": "gzip"
+    }, 
+    {
+      "pooled_col": "pooled", 
+      "name": "metadata", 
+      "phenotype_to_marker": {
+        "lymph node": "o", 
+        "heart": "o", 
+        "testis": "o", 
+        "animal ovary": "o", 
+        "leukocyte": "o", 
+        "skeletal muscle": "o", 
+        "adipose tissue": "o", 
+        "adrenal gland": "o", 
+        "brain": "o", 
+        "colon": "o", 
+        "breast": "o", 
+        "thyroid": "o", 
+        "lung": "o", 
+        "prostate": "o", 
+        "kidney": "o", 
+        "liver": "o"
+      }, 
+      "format": "csv", 
+      "minimum_samples": 0, 
+      "phenotype_to_color": {
+        "lymph node": [
+          0.3531380715309417, 
+          0.6201408220829481, 
+          0.9586195235634788
+        ], 
+        "heart": [
+          0.19783576093349015, 
+          0.6955516966063037, 
+          0.3995301037444499
+        ], 
+        "testis": [
+          0.9603888539940703, 
+          0.3814317878772117, 
+          0.8683117650835491
+        ], 
+        "animal ovary": [
+          0.8087954113106306, 
+          0.5634700050056693, 
+          0.19502642696727285
+        ], 
+        "leukocyte": [
+          0.21044753832183283, 
+          0.6773105080456748, 
+          0.6433941168468681
+        ], 
+        "skeletal muscle": [
+          0.8397010947263905, 
+          0.4529020995703274, 
+          0.9578638063653008
+        ], 
+        "adipose tissue": [
+          0.9677975592919913, 
+          0.44127456009157356, 
+          0.5358103155058701
+        ], 
+        "adrenal gland": [
+          0.9688417625390765, 
+          0.46710871459052145, 
+          0.1965441952393453
+        ], 
+        "brain": [
+          0.7008633391290917, 
+          0.6080365980075504, 
+          0.19419512204856468
+        ], 
+        "colon": [
+          0.4225883781014591, 
+          0.677943504931845, 
+          0.19271544738133076
+        ], 
+        "breast": [
+          0.5920891529639701, 
+          0.6418467016378244, 
+          0.1935069134991043
+        ], 
+        "thyroid": [
+          0.9645179518697552, 
+          0.41602112206844516, 
+          0.708820872610067
+        ], 
+        "lung": [
+          0.22335772267769388, 
+          0.6565792317435265, 
+          0.8171355503265633
+        ], 
+        "prostate": [
+          0.6423044349219739, 
+          0.5497680051256467, 
+          0.9582651433656727
+        ], 
+        "kidney": [
+          0.20518528131112956, 
+          0.6851497738530601, 
+          0.5562527763557915
+        ], 
+        "liver": [
+          0.21576108198845112, 
+          0.6690446872415565, 
+          0.7201192992055431
+        ]
+      }, 
+      "path": "metadata.csv.gz", 
+      "phenotype_col": "phenotype", 
+      "phenotype_order": [
+        "adipose tissue", 
+        "adrenal gland", 
+        "animal ovary", 
+        "brain", 
+        "breast", 
+        "colon", 
+        "heart", 
+        "kidney", 
+        "leukocyte", 
+        "liver", 
+        "lung", 
+        "lymph node", 
+        "prostate", 
+        "skeletal muscle", 
+        "testis", 
+        "thyroid"
+      ], 
+      "compression": "gzip"
+    }
+  ]
+}
