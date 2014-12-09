@@ -1,0 +1,17 @@
+,phenotype,reproductive,hormonal,immune,fatty,muscle,filtration,high_blood_flow,outlier
+adipose tissue,adipose tissue,False,False,False,True,False,False,False,False
+adrenal gland,adrenal gland,False,True,False,False,False,False,False,False
+animal ovary,animal ovary,True,True,False,False,False,False,False,False
+brain,brain,False,False,False,True,False,False,True,False
+breast,breast,False,False,False,True,False,False,False,False
+colon,colon,False,False,False,False,True,True,True,False
+heart,heart,False,False,False,False,True,False,False,False
+kidney,kidney,False,False,False,False,False,True,True,False
+leukocyte,leukocyte,False,False,True,False,False,False,False,False
+liver,liver,False,False,False,False,False,True,True,False
+lung,lung,False,False,False,False,False,False,True,False
+lymph node,lymph node,False,False,True,False,False,False,False,False
+prostate,prostate,False,False,False,False,True,False,False,False
+skeletal muscle,skeletal muscle,False,False,False,False,True,False,False,False
+testis,testis,True,True,False,False,False,False,False,False
+thyroid,thyroid,False,True,True,False,False,False,False,False
