@@ -10,8 +10,7 @@
       "format": "csv", 
       "rename_col": "gene_name", 
       "ignore_subset_cols": [], 
-      "path": "expression_feature.csv.gz", 
-      "compression": "gzip"
+      "url": "https://raw.githubusercontent.com/YeoLab/bodymap2/master/expression_feature.csv"
     }, 
     {
       "name": "expression", 
@@ -19,8 +18,7 @@
       "format": "csv", 
       "thresh": -Infinity, 
       "plus_one": false, 
-      "path": "expression.csv.gz", 
-      "compression": "gzip"
+      "url": "https://raw.githubusercontent.com/YeoLab/bodymap2/master/expression.csv"
     }, 
     {
       "pooled_col": "pooled", 
@@ -127,7 +125,7 @@
           0.7201192992055431
         ]
       }, 
-      "path": "metadata.csv.gz", 
+      "url": "https://raw.githubusercontent.com/YeoLab/bodymap2/master/metadata.csv", 
       "phenotype_col": "phenotype", 
       "phenotype_order": [
         "adipose tissue", 
@@ -146,8 +144,7 @@
         "skeletal muscle", 
         "testis", 
         "thyroid"
-      ], 
-      "compression": "gzip"
+      ]
     }
   ]
 }
